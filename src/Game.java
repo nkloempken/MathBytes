@@ -79,7 +79,6 @@ class Game implements Runnable{
         //Begins the game in the State_StartScreen where the user can choose what game to play.
         State startScreen = new State_StartScreen(this);
         State.setState(startScreen);
-        PlayMusic.playBackground(this,Assets.backgroundMusic);
     }
 
     /**
